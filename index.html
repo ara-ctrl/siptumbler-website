@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siptumbler Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Siptumbler</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Discover Siptumbler</h2>
+        <p>Our tumblers are made with the highest quality materials to keep your drinks at the perfect temperature.</p>
+        <img src="tumbler.jpg" alt="Siptumbler Image">
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Siptumbler was founded with a simple mission: to provide high-quality, stylish tumblers that keep your drinks at the perfect temperature. Whether you prefer hot coffee or cold water, our tumblers are designed to enhance your drinking experience. Our team is dedicated to continuous innovation and customer satisfaction.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Insulated to keep drinks hot or cold</li>
+            <li>BPA-free materials</li>
+            <li>Sleek and stylish design</li>
+            <li>Available in multiple colors</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="tumbler1.jpg" alt="Siptumbler 1">
+            <img src="tumbler2.jpg" alt="Siptumbler 2">
+            <img src="tumbler3.jpg" alt="Siptumbler 3">
+            <img src="tumbler4.jpg" alt="Siptumbler 4">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Siptumbler. All rights reserved.</p>
+    </footer>
+</body>
+</html>
